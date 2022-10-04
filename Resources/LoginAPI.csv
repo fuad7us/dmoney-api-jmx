@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1664865861954,93,Login to user,200,OK,Thread 1-1,text,true,,533,314,1,1,http://dmoney.professionaltrainingbd.com/user/login,82,0,53
+1664865862128,5665,User List,200,OK,Thread 1-1,text,true,,1749854,411,1,1,http://dmoney.professionaltrainingbd.com/user/list,5110,0,0
+1664865867852,38,Create a user,201,Created,Thread 1-1,text,true,,580,602,1,1,http://dmoney.professionaltrainingbd.com/user/create,38,0,0
+1664865867892,14,Search the newly created user by id,200,OK,Thread 1-1,text,true,,531,421,1,1,http://dmoney.professionaltrainingbd.com/user/search?id=9728,14,0,0
+1664865867907,17,Search newly created user by phone number,200,OK,Thread 1-1,text,true,,543,438,1,1,http://dmoney.professionaltrainingbd.com/user/search/?phone_number=0181794210,17,0,0
+1664865867924,9,Search the newly created user by email,200,OK,Thread 1-1,text,true,,531,439,1,1,http://dmoney.professionaltrainingbd.com/user/search/?email=user3511@gmail.com,9,0,0
+1664865867933,16,Update the user phone number,200,OK,Thread 1-1,text,true,,381,479,1,1,http://dmoney.professionaltrainingbd.com/user/update/9728,16,0,0
+1664865867950,17,Delete User,200,OK,Thread 1-1,text,true,,343,440,1,1,http://dmoney.professionaltrainingbd.com/user/delete/9728,17,0,0
